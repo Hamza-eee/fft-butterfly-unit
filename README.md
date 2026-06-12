@@ -5,7 +5,7 @@ A manually synthesised FFT butterfly unit in SystemVerilog, targeting Intel FPGA
 The design takes two 8-bit signed integer inputs and a twiddle factor index via physical switches on an FPGA board, computes the complex butterfly outputs Y and Z, and displays each component sequentially on LEDs. The user sets data on SW[7:0], toggles SW[8] as a handshake signal to step through the input/output sequence, and reads results from LED[7:0]. SW[9] acts as an active-low master reset. Since the imaginary parts of both inputs are assumed to be zero, the full complex multiply simplifies to two real multiplications and two additions/subtractions.
 
 <p align="center">
-    <img src="docs/dfg.png" width="300">
+    <img src="docs/DFG.png" width="300">
 </p>
 
 ## The Pseudocode
