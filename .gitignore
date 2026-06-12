@@ -1,0 +1,27 @@
+# Verilator
+obj_dir/
+
+# ModelSim
+work/
+transcript
+vsim.wlf
+
+# Waveforms
+*.vcd
+*.fst
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qpf
+*.qsf
+*.sof
+*.pof
+
+# macOS
+.DS_Store
+
+# C build artifacts
+*.o
+*.out
